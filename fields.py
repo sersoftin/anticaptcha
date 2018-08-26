@@ -1,5 +1,5 @@
 import six
-from exceptions import InvalidWidthException, MissingNameException
+from .exceptions import InvalidWidthException, MissingNameException
 
 
 class BaseField(object):
